@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB61CEEE-CE37-4B62-8ED5-182F948B1871}" SchemaVersion="97" RootDocumentID="{B34051A6-F1D3-4558-A9ED-EB78F1DC3BDE}">
+	<Events>
+		<WorkUnit Name="Crew" ID="{CB61CEEE-CE37-4B62-8ED5-182F948B1871}" OwnerID="{B34051A6-F1D3-4558-A9ED-EB78F1DC3BDE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ingame_voice_notifications_VO_ally_killed_by_player" ID="{F19A3762-B250-410B-996A-0F51F3935CEB}">
+					<ChildrenList>
+						<Action Name="" ID="{D3484931-2CA1-4C32-B885-A9F94AEC185E}" ShortID="321160064">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_ally_killed_by_player" ID="{4E1F5F83-A15D-4E27-ACEA-CBB3BBF73F9B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0940184A-722F-4E11-97FC-3FD7197E2D20}" ShortID="339187938">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_ammo_bay_damaged" ID="{4E1385AF-909D-4F8E-8594-461CD867F797}">
+					<ChildrenList>
+						<Action Name="" ID="{E753F41D-0CEB-4A60-8978-4032D27A1650}" ShortID="156993600">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_ammo_bay_damaged" ID="{078BED5D-62CE-4872-98AE-C1E496AA888C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4EBC1E07-AB4B-4855-B6DF-0539D3C1D74A}" ShortID="301568412">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ammo_Damage_SE" ID="{573905DD-BB63-475E-B67B-4F3F1A42E333}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EE9BBFC8-C859-490B-A374-B40EF597E948}" ShortID="455582634">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_not_pierced_by_player" ID="{D0EFDFAC-0325-421D-ADEF-B0AFC467DA03}">
+					<ChildrenList>
+						<Action Name="" ID="{6C78238A-F9A2-4CF4-9DA7-66787D09DD83}" ShortID="276909644">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_armor_not_pierced_by_player" ID="{4FC7A3F6-4111-4C7D-9A2B-223DC00030B3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E6C74C14-D626-4DFC-B841-B63AEA619A3E}" ShortID="79333442">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ricochet_SE" ID="{03D3C895-B39D-4E80-83F0-D19769FADEFB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A5027163-1F52-42AF-BFED-CABE2CEE51A2}" ShortID="291902047">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_pierced_by_player" ID="{57F850DE-B7AF-479F-8CEE-2AAD115B4D26}">
+					<ChildrenList>
+						<Action Name="" ID="{2F3F7A03-80C8-48CF-AA04-861DCD775E5F}" ShortID="417405621">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_armor_pierced_by_player" ID="{8B26EEE3-12C3-4298-BBE3-D14B7DBFF638}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B62EB6F-5B45-48A5-9758-29A5820D8333}" ShortID="546034714">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_pierced_crit_by_player" ID="{62A088AB-8994-4FBC-96AF-3E94C6F911F2}">
+					<ChildrenList>
+						<Action Name="" ID="{718E3D5F-8CC3-4747-9166-8864FA21858A}" ShortID="612989776">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_armor_pierced_crit_by_player" ID="{65F97273-4362-4434-A9CD-4DC8C10A05EB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5188E05E-C8B2-4F16-BFA9-5BF14988DD63}" ShortID="350440570">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Module_Damage_SE" ID="{08E89498-33C8-46F7-8C65-9C629F07163D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{034B87C8-8113-41EF-920A-E39F160358D6}" ShortID="727456095">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_armor_ricochet_by_player" ID="{E0C6AF51-C245-4C2C-AC03-F2C38112B5E8}">
+					<ChildrenList>
+						<Action Name="" ID="{A1567AA0-1E25-4291-B0FE-A7516E3C5164}" ShortID="205107008">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_armor_ricochet_by_player" ID="{CE3F2ABE-AC19-466E-B858-40725A725536}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E6E7126-933A-4B95-A487-891EE6D9073A}" ShortID="627567165">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ricochet_SE" ID="{03D3C895-B39D-4E80-83F0-D19769FADEFB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C5688F3-FB56-47B4-9BF7-34683ACCD683}" ShortID="989351843">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_commander_killed" ID="{050247A2-9F0A-4DBF-BC25-7868E954CC97}">
+					<ChildrenList>
+						<Action Name="" ID="{5FCEF07A-2785-4DE5-8AE0-7DE3C40B9D63}" ShortID="445006846">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_commander_killed" ID="{32FE1E19-3A8C-43F8-8C5D-B180E7CAAFF0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB3962E4-27D4-49D5-A3FA-5F10F409D382}" ShortID="381178690">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_driver_killed" ID="{770E69ED-40E9-4C15-B8FA-B07BCA04374C}">
+					<ChildrenList>
+						<Action Name="" ID="{9551AE60-9B61-4D5B-8062-9BA30F75B484}" ShortID="204896408">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_driver_killed" ID="{4A044F3B-7331-4A7E-A49D-F65A5AB57B76}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E3107F43-6D77-4D84-B860-1D5E6DB25AE8}" ShortID="272557466">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_enemy_fire_started_by_player" ID="{EB1E3343-6834-4C21-AE3A-782643C86D61}">
+					<ChildrenList>
+						<Action Name="" ID="{ECD32F6F-0F4B-4EDE-A83A-435EE60D2B8A}" ShortID="512413204">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_enemy_fire_started_by_player" ID="{62167871-FEA4-4AE2-94D9-B0359D598D3B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DA0AB6BD-4B72-40D7-B240-5E0E00C83F83}" ShortID="282878876">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_enemy_killed_by_player" ID="{8A9A455E-6C35-4D84-B432-6F81D0EC4A11}">
+					<ChildrenList>
+						<Action Name="" ID="{2AAF34EC-02A7-426A-8DC5-BDAB2FBE6EEF}" ShortID="857046656">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_enemy_killed_by_player" ID="{1D4AB4ED-A6E3-414E-82F1-B123D88B7116}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{694B5C7C-5FD8-49AB-8AD9-F0D2CE1B8EE4}" ShortID="327048272">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_engine_damaged" ID="{1F214ACA-5865-43AF-9207-2E681F186D11}">
+					<ChildrenList>
+						<Action Name="" ID="{6EABF947-C0BA-4871-86DA-6B0013154A61}" ShortID="505892180">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_engine_damaged" ID="{89A6F1E1-8B40-4C0C-8017-ACF68185AD19}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{91E573DB-8399-4F41-A6AA-F9A73EFA02DD}" ShortID="597915595">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_engine_destroyed" ID="{762FB5B4-9C65-4DF3-98E2-A19580776A0C}">
+					<ChildrenList>
+						<Action Name="" ID="{F4EBF9B0-F7D9-4787-9451-A0BA566C03B2}" ShortID="423193652">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_engine_destroyed" ID="{2BFF0362-3AB3-4A7C-AE4D-4671F1B8CF53}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AA742B5C-82DD-44DB-9965-1BB1460760A1}" ShortID="894619897">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_engine_functional" ID="{06305B43-93DC-4E44-BFF3-7C3D115BB900}">
+					<ChildrenList>
+						<Action Name="" ID="{A56A21E6-4C58-4E25-8730-713939BBBE42}" ShortID="613241007">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_engine_functional" ID="{DC4C40AE-5B73-489A-8E3B-3AC28B0436E5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{50D135E3-35C4-4399-BD44-BF52800DD609}" ShortID="188329623">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_fire_started" ID="{064758A9-9241-4EF3-A0E7-9DDB8092DB54}">
+					<ChildrenList>
+						<Action Name="" ID="{638D244B-01FD-4256-A363-8A4588884A52}" ShortID="37102391">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_fire_started" ID="{9416CAB0-B097-4372-9AB9-3AC335FE1AF3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BC7203A8-EDBD-4B73-A9CA-1C7A4DA3140F}" ShortID="91321832">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_fire_stopped" ID="{CF377717-4688-4C95-A856-1052099EC8CB}">
+					<ChildrenList>
+						<Action Name="" ID="{13341262-C245-4D79-956B-517D42B69594}" ShortID="190249202">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_fire_stopped" ID="{F05D106C-E9BE-4B67-8F04-4E71E44BB588}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{992202BE-CD4C-466B-85FE-DDF7724DD123}" ShortID="803504031">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_fuel_tank_damaged" ID="{309793BF-D24E-4A19-B97E-C9179D638D66}">
+					<ChildrenList>
+						<Action Name="" ID="{D75FBD3F-101F-4424-9AB3-A2E54D37B8D7}" ShortID="79477650">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_fuel_tank_damaged" ID="{8D34AC3C-8E48-4C3B-A77E-10B12EF8C7CA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{84EF584C-25EC-4878-BF3B-FB867E8B13C6}" ShortID="226134370">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuel_Tank_Damage_SE" ID="{B3A72455-CA69-44C7-BDC3-A90C770498B3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A40D07F3-AA51-484A-9618-AAC0959ED355}" ShortID="917228100">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gun_damaged" ID="{8E823529-2125-4EE2-BE18-439C1BFFBBDE}">
+					<ChildrenList>
+						<Action Name="" ID="{E82ED060-BEB1-4662-86D3-69BC0653B5AE}" ShortID="855819244">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_gun_damaged" ID="{A2133F34-8B70-4929-B275-D03C10062B00}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{916B5ADB-3C9C-4751-AF01-79E25F3A7F59}" ShortID="168624056">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gun_destroyed" ID="{0B3509B1-0849-439D-A9B8-53089016D11C}">
+					<ChildrenList>
+						<Action Name="" ID="{5A7F9EF7-3C21-4C90-B8E4-E5C51F99A4FF}" ShortID="644528191">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_gun_destroyed" ID="{70C70510-4AEE-4474-B1D6-634B33CB755F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9346F045-2BC7-4B38-AA34-B5ABC159A947}" ShortID="23214651">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gun_functional" ID="{E927EABA-CF41-4125-8ADC-EFD5C4DBCDE8}">
+					<ChildrenList>
+						<Action Name="" ID="{B568C1AB-2360-4E10-827A-ABEAF6357C4F}" ShortID="873570363">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_gun_functional" ID="{27ED736F-2154-45A1-BA9A-7ACD3523EAE0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5806C7B5-4769-4719-98AC-3E77110DF0AA}" ShortID="1005793938">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_gunner_killed" ID="{ABE95961-A422-4733-B557-DAAD70E892FF}">
+					<ChildrenList>
+						<Action Name="" ID="{970C7FE4-48FE-4B8E-BFE9-CB14AE0961FC}" ShortID="757083589">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_gunner_killed" ID="{C07BC277-2DD1-479E-802F-516085E7D4F6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1F12E3D5-54E3-469C-8B50-1CE09A498355}" ShortID="305818341">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_loader_killed" ID="{51C8C931-6973-4F2A-B86B-E9790E5DDE81}">
+					<ChildrenList>
+						<Action Name="" ID="{26A5D0DD-3FD5-420A-A577-4C8D6C6E7C7A}" ShortID="709341868">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_loader_killed" ID="{F2D4C428-DD48-4A28-AABF-BB9ED37FAE01}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{46C3FFB1-3E01-4636-8815-5494362D27E8}" ShortID="352785942">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_radio_damaged" ID="{E03C1BEF-B5CD-49B7-AFAC-BAA197C501F0}">
+					<ChildrenList>
+						<Action Name="" ID="{5945EFA2-630D-43A5-9B66-B4DD94147F3D}" ShortID="547033390">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_radio_damaged" ID="{FEE7619A-7AEC-4B71-A29E-D6F95E1046F6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0EF26594-755E-45C5-9388-A57486F2A1E8}" ShortID="1030691022">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_radioman_killed" ID="{CDDA22F8-FF76-4356-9D8C-51D7C26CBEC4}">
+					<ChildrenList>
+						<Action Name="" ID="{DAC84B82-1158-42AB-B883-238FC95DD36D}" ShortID="185147891">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_radioman_killed" ID="{1A46E6ED-4E6E-4487-BCE3-691E31995E70}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2DAEB3D7-2449-4847-A6A3-1FAFD21403F9}" ShortID="308587121">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_start_battle" ID="{74835201-A055-42C9-84F2-BE3BC40BC442}">
+					<ChildrenList>
+						<Action Name="" ID="{F244D650-721F-4D0F-ABB8-9A1FA780C930}" ShortID="382492567">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_start_battle" ID="{24B7C6FB-0580-443A-A1B7-BA146B10135F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D8CD4F1D-79A6-4B7A-9D1B-2E03FDAE89F0}" ShortID="826104666">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_surveying_devices_damaged" ID="{BAE6296E-1520-4797-954B-DC7715739A54}">
+					<ChildrenList>
+						<Action Name="" ID="{AD9AB8AE-4551-4DF0-B1D0-9690D1F8599E}" ShortID="998498721">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_surveying_devices_damaged" ID="{FB30DE25-33CA-45FA-A44F-A8978F205E40}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E0ACE018-2619-4B18-B1B8-5F5812B5DDD0}" ShortID="118373267">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_surveying_devices_destroyed" ID="{A884B5D1-9F13-4903-9182-4E20DF2BC42B}">
+					<ChildrenList>
+						<Action Name="" ID="{A8C97361-CC08-4C40-9E47-E751359DFBED}" ShortID="610052372">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_surveying_devices_destroyed" ID="{330B3658-15EF-4630-9F49-952BF269D8B3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F6933D4B-3DDC-43E5-84F7-8A049CC34DB2}" ShortID="517648229">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_surveying_devices_functional" ID="{9FA9E4BA-8791-459C-95D5-435BB02BB723}">
+					<ChildrenList>
+						<Action Name="" ID="{D17E73DF-7118-4B82-9B51-4F44426697A7}" ShortID="404683619">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_surveying_devices_functional" ID="{FD282D31-6C27-4786-B42D-1B94111A53CF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{41AE57F0-ABFE-40F1-A76A-E0BDB8D18B53}" ShortID="416412057">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_damaged" ID="{17F8108E-9A7B-400A-90E0-AC3DD560B87F}">
+					<ChildrenList>
+						<Action Name="" ID="{45B8548B-F582-41FF-85DA-499C00D554B6}" ShortID="484951680">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_track_damaged" ID="{03CCD52B-E526-4841-933A-F14553AD67BF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4352FB4F-B49E-4391-8E1D-1A75612E88DB}" ShortID="918167715">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_destroyed" ID="{13E6FB43-8AF4-4AE0-B045-428A44AE3F9F}">
+					<ChildrenList>
+						<Action Name="" ID="{F80CA969-61C4-4D0B-9421-53813B670493}" ShortID="115140981">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_track_destroyed" ID="{2B1F664F-12BE-4CBE-AC5E-0DC0F5A26F31}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{390DCEFE-A2C7-4B80-8EBA-91C48DF6B006}" ShortID="804412432">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_functional" ID="{2F0C3612-522D-4623-9758-7755F26A9050}">
+					<ChildrenList>
+						<Action Name="" ID="{AA28322B-2AE1-4095-8E88-4C47FE93D9FA}" ShortID="598860869">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_track_functional" ID="{E99D88DE-3FCC-4636-BD16-363E38FD79C4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C80F696E-3219-4E4A-8245-9A4891C7C687}" ShortID="770365069">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_track_functional_can_move" ID="{3F6FA150-FECA-4571-8D48-CCAB3B093899}">
+					<ChildrenList>
+						<Action Name="" ID="{05D0BE7F-6823-409A-BE20-FFC2203B1823}" ShortID="193346424">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_track_functional_can_move" ID="{10989FD9-64A2-4BC3-AEE1-6A65715F8F91}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BF1F9BAB-ADE3-4F9F-914F-4DD37D6A4AA5}" ShortID="811329720">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_turret_rotator_damaged" ID="{8AD81799-3930-4F77-834E-225EE15A5B29}">
+					<ChildrenList>
+						<Action Name="" ID="{B97654DC-01FF-4C6A-8C97-B72AFA2CAA0B}" ShortID="516001495">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_turret_rotator_damaged" ID="{44916C20-509D-411C-B00C-08F8394CBDEA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{73104825-DB6C-473C-A3F7-921BF86B2299}" ShortID="3105261">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_turret_rotator_functional" ID="{C890C8A4-78B0-4F23-94BD-5D3056244300}">
+					<ChildrenList>
+						<Action Name="" ID="{CB73A3DF-EBDD-48A7-A7C8-F12959E07D2F}" ShortID="688002347">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_turret_rotator_functional" ID="{4AA058F0-993F-406F-B5B2-A8FC56C3D5C4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E998C5C1-ED73-4B5A-B91F-005DCF8BFE07}" ShortID="306737213">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_turret_rotator_destroyed" ID="{FFBA6B9B-691C-4469-8B01-17A7625112D1}">
+					<ChildrenList>
+						<Action Name="" ID="{15814691-268D-4D12-B059-924DB2559EC0}" ShortID="483972387">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_turret_rotator_destroyed" ID="{E2E8E6C7-D4D8-4B4E-B6C7-83FC705D47C1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3A3313DF-ABAB-4839-9C7E-424F252D8094}" ShortID="592615127">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ingame_voice_notifications_VO_vehicle_destroyed" ID="{813E56BE-E55A-4076-85D5-F820E67641D2}">
+					<ChildrenList>
+						<Action Name="" ID="{052018F4-9486-4522-8238-84A9422D7971}" ShortID="790621562">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_voice_notifications_vo_vehicle_destroyed" ID="{3B89EFE5-8313-421C-B981-85F315078560}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB74210D-575C-4171-BD3A-DF189F4BCC5E}" ShortID="634125787">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio_SE" ID="{92059BF7-8DEA-4A91-8E14-CA4B9CE723FC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
