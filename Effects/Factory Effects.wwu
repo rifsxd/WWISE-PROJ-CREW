@@ -752,7 +752,7 @@
 										<CustomState Name="" ID="{986B6135-B438-415A-A8D7-D8BFB5B8B26A}" ShortID="456699108">
 											<PropertyList>
 												<Property Name="DryLevel" Type="Real32" Value="96"/>
-												<Property Name="WetLevel" Type="Real32" Value="-10"/>
+												<Property Name="WetLevel" Type="Real32" Value="-20"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
